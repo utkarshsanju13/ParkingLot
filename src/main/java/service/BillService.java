@@ -45,6 +45,8 @@ public class BillService {
         bill.setBillStatus(BillStatus.UNPAID);
         bill.setTicket(ticket);
 
+        billRepository.put(bill);
+
         return bill;
     }
 }
