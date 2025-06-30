@@ -53,7 +53,7 @@ public class ParkingLotMain {
 
 
         while (true) {
-            System.out.println("Please enter an option => 1. for entering Parking lot, 2. for exiting Parking lot " +
+            System.out.println(" enter an option => 1. for entering Parking lot, 2. for exiting Parking lot " +
                     "3. Exiting Parking Lot ");
             int option = scanner.nextInt();
             if(option == 1) {
